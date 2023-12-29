@@ -1,16 +1,25 @@
 "use client";
+import React, { useState } from "react";
 import { siteConfig } from "@/config/site-config";
 import { Mail, MapPin } from "lucide-react";
 import Image from "next/image";
 import Footer from "./footer";
+import Calendar from "./grid-items/calendar";
+import CalButton from "./grid-items/cal-button";
 
 const LeftPanel = () => {
+  const [isCalendarVisible, setCalendarVisibility] = useState(false);
+
+  const toggleCalendarVisibility = () => {
+    setCalendarVisibility(!isCalendarVisible);
+  };
   return (
     <div
       key="left-panel"
       className="flex flex-col justify-between py-6 xl:max-w-sm xl:py-10 xl:h-full"
     >
       {/* Top Container */}
+
       <div>
         <div>
           <Image
@@ -25,7 +34,6 @@ const LeftPanel = () => {
             blurDataURL="/300x300.png"
           />
         </div>
-
         {/* Text Container */}
         <div className="mt-6">
           <div className="text-xl font-medium text-primary">
@@ -53,6 +61,11 @@ const LeftPanel = () => {
             Contact Me
           </a>
         </div>
+
+        {/* Calendar */}
+
+        <CalButton />
+
         {/* Footer */}
         <div className="hidden mt-6 xl:flex">
           <Footer />

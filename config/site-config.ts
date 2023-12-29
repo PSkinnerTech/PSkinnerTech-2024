@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export type GridItemLayout = "1x2" | "2x1" | "2x2" | "2x4"; // First number is width, second is height
 export type GridItemType = "social" | "equipment" | "mentor" | "project";
 export type EqiupmentItem = {
@@ -48,7 +46,7 @@ const GridItems: GridItemInterface[] = [
     title: "Blog",
     icon: "hashnode",
     username: "@AGAMI-PSkinnerTech",
-    buttonTitle: "Read My Blog",
+    buttonTitle: "Read Blog",
     buttonLink: "https://blog.patrickskinner.tech",
     color: "#3b82f6",
   },
