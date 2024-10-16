@@ -45,7 +45,7 @@ const GridItems: GridItemInterface[] = [
     type: "social",
     title: "Blog",
     icon: "hashnode",
-    username: "@AGAMI-PSkinnerTech",
+    username: "@PSkinnerTech",
     buttonTitle: "Read Blog",
     buttonLink: "https://blog.patrickskinner.tech",
     color: "#3b82f6",
@@ -57,7 +57,7 @@ const GridItems: GridItemInterface[] = [
     icon: "github",
     username: "@PSkinnerTech",
     buttonTitle: "Follow",
-    buttonSecondaryText: "60",
+    buttonSecondaryText: "65",
     buttonLink: "https://github.com/pskinnertech",
     color: "#070707",
   },
@@ -69,27 +69,27 @@ const GridItems: GridItemInterface[] = [
     equipments: [
       {
         title: "Sony A7RIII",
-        link: "https://www.amazon.com/Sony-a7R-Mirrorless-Camera-Interchangeable/dp/B076TGDHPT?th=1&_encoding=UTF8&tag=pskinnertech-20&linkCode=ur2&linkId=f15feae54b36a5cba604bda94a04a14f&camp=1789&creative=9325",
+        link: "https://amzn.to/3BO6MEM",
       },
       {
-        title: "Sony FE 70-200mm f/2.8 GM OSS Lens",
-        link: "https://www.amazon.com/Sony-70-200mm-2-8-OSS-Lens/dp/B01IDQEQ34/ref=sr_1_2?crid=1EVB2EOSVNTNM&amp;keywords=Sony%252Bf2.8%252B70-200%252Bgm&amp;qid=1703768569&amp;sprefix=sony%252Bf2.8%252B70-200%252Bgm%252Caps%252C212&amp;sr=8-2&amp;th=1&_encoding=UTF8&tag=pskinnertech-20&linkCode=ur2&linkId=8285eb489b62d0fd860209952ea69541&camp=1789&creative=9325",
+        title: "Sony 70-200 f2.8 GM Lens",
+        link: "https://amzn.to/48q53Sp",
       },
       {
-        title: "Maono Microphone",
-        link: "https://www.amazon.com/Microphone-MAONO-Condenser-Professional-Recording/dp/B07GQT8879/ref=sr_1_3?crid=OGRDBSH4MM8A&amp;keywords=maono%252Bmicrophone&amp;qid=1703768896&amp;sprefix=maono%252Caps%252C233&amp;sr=8-3&amp;th=1&_encoding=UTF8&tag=pskinnertech-20&linkCode=ur2&linkId=52b7f9d73b6c125ab00900503b6e0a75&camp=1789&creative=9325",
+        title: "DJI Mic 1",
+        link: "https://amzn.to/3Yr7TmK",
       },
       {
         title: "VICTIV 80in. Camera Tripod",
-        link: "https://www.amazon.com/Aluminum-Foldable-Tripods-Monopods-Outdoor-AT40/dp/B09243T4ZJ/ref=sr_1_2_sspa?crid=3PS06PA8HEZ5J&amp;keywords=victiv%252Btripod&amp;qid=1703769139&amp;sprefix=Victiv%252B%252Caps%252C212&amp;sr=8-2-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&_encoding=UTF8&tag=pskinnertech-20&linkCode=ur2&linkId=7ec49436994a48164caa03840796627a&camp=1789&creative=9325",
+        link: "https://amzn.to/3BMTMz5",
       },
       {
-        title: "RAUBAY Dual LED Video Panel Lights",
-        link: "https://www.amazon.com/dp/B09VL1J1YC?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details&_encoding=UTF8&tag=pskinnertech-20&linkCode=ur2&linkId=5dade1eb1ebcb4feb43742d989c17de6&camp=1789&creative=9325",
+        title: "SHIRTAL 37in.Softbox Lighting Kit",
+        link: "https://amzn.to/3BY7pve",
       },
       {
-        title: "Elgato 4K Video Capture Card",
-        link: "https://www.amazon.com/Elgato-Cam-Link-Broadcast-Camcorder/dp/B07K3FN5MR/ref=sr_1_5?crid=V4P27MAFOS78&amp;keywords=4k+video+capture&amp;qid=1703769333&amp;sprefix=4k+video+capture%252Caps%252C192&amp;sr=8-5&_encoding=UTF8&tag=pskinnertech-20&linkCode=ur2&linkId=b513f4415dd8e95f6f9f2ec0d5ae5f92&camp=1789&creative=9325",
+        title: "Papeaso 4K Video Capture Card",
+        link: "https://amzn.to/3BJfIel",
       },
     ],
   },
@@ -101,10 +101,10 @@ const GridItems: GridItemInterface[] = [
     username: "@PSkinnerTech",
     buttonTitle: "Follow",
     buttonLink: "https://x.com/pskinnertech",
-    buttonSecondaryText: "2389",
+    buttonSecondaryText: "3867",
     color: "#000000",
     description:
-      "Patrick Skinner | DevRel | @DevRelUniCohort #1 | @Developer_DAO Member | @POKTNetwork Socket Maintainer | Prev Paratrooper Medic @USArmy",
+      "🥑 Lead DevRel @fwdresearch / @ArweaveEco | 🧑‍🎓 @DevRelUni Cohort #1 | 🚀 @Developer_DAO Member | 🪖 Prev Paratrooper Medic @USArmy",
   },
   {
     layout: "2x1",
@@ -128,7 +128,7 @@ const GridItems: GridItemInterface[] = [
 
 export const siteConfig = {
   creator: "Patrick Skinner",
-  title: "Web3 Developer | Content Creator | DevRel",
+  title: "Software Engineer | DevRel",
   bio: "I used to jump out of perfectly good airplanes for a living.  Now I build cool web3 products and teach others how to do it, too.",
   location: "Dallas, Texas, USA",
   locationLink: "https://maps.app.goo.gl/B567q7WbLMU4Js6U6",

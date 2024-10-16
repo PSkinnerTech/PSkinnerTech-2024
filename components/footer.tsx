@@ -1,4 +1,4 @@
-import { ThemeToggle } from "./theme-toggle";
+// import { ThemeToggle } from "./theme-toggle";
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="text-xs text-neutral-500">
           Built by @PSkinnerTech | ©2024 PSkinnerTech. All Rights Reserved
         </div>
-        <ThemeToggle />
+        {/* <ThemeToggle /> */}
       </div>
     </div>
   );
